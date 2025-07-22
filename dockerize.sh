@@ -36,7 +36,7 @@ DEFAULT_HOST_PORT="8080"
 # (IMPORTANT) The port your application is listening on INSIDE the container.
 # This port must match the EXPOSE port in your Dockerfile.
 # Example: 8080 for .NET, 3000 for Node.js, 5000 for Python/Flask.
-CONTAINER_PORT="80"
+CONTAINER_PORT="5000"
 
 # The name of the environment file that holds sensitive data (API keys, passwords).
 # The script will automatically include this file if it exists.

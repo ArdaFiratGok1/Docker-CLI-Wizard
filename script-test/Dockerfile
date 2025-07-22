@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # 5. Uygulama 5000 portunu dinliyor
-EXPOSE 8080
+EXPOSE 5000
 
 # 6. Container başladığında uygulamayı çalıştıracak komut
 CMD ["python", "app.py"]

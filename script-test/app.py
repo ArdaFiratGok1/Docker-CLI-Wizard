@@ -12,4 +12,4 @@ def hello():
 
 if __name__ == '__main__':
     # Container içinde çalışması için host='0.0.0.0' ve port=5000 olmalı
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=5000)
